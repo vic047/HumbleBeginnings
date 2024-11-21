@@ -22,7 +22,6 @@ import org.slf4j.Logger;
 public class HumbleBeginnings {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "humble_beginnings";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public HumbleBeginnings() {
