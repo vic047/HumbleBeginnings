@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "humble_beginnings:block/tannin_compound_block"
+  }
+}

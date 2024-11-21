@@ -1,6 +1,11 @@
 package me.shortman.humblebeginnings;
 
 import com.mojang.logging.LogUtils;
+import me.shortman.humblebeginnings.block.ModBlocks;
+import me.shortman.humblebeginnings.item.ModCreativeTab;
+import me.shortman.humblebeginnings.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -17,6 +22,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
+import javax.swing.*;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(HumbleBeginnings.MOD_ID)
 public class HumbleBeginnings {
@@ -26,6 +33,11 @@ public class HumbleBeginnings {
 
     public HumbleBeginnings() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeTab.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

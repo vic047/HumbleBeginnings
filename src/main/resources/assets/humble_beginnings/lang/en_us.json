@@ -1,0 +1,21 @@
+{
+  "item.humble_beginnings.tannin_compound": "Tannin Compound",
+  "item.humble_beginnings.bark_small": "Small Piece of Bark",
+  "item.humble_beginnings.bark_medium": "Piece of Bark",
+  "item.humble_beginnings.bark_big": "Big Piece of Bark",
+  "item.humble_beginnings.hide_raw": "Raw Hide",
+  "item.humble_beginnings.hide_soaked": "Soaked Hide",
+  "item.humble_beginnings.skin_cow": "Cow Skin",
+  "item.humble_beginnings.skin_pig": "Pig Skin",
+  "item.humble_beginnings.skin_donkey": "Donkey Skin",
+  "item.humble_beginnings.skin_horse": "Horse Skin",
+  "item.humble_beginnings.skin_llama": "Llama Skin",
+  "item.humble_beginnings.skin_wolf": "Wolf Skin",
+  "item.humble_beginnings.skin_polar_bear": "Polar Bear Skin",
+
+  "block.humble_beginnings.tannin_compound_block": "Tannin Compound Block",
+
+  "creativetab.leather_works": "Leather Works"
+
+
+}
